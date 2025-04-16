@@ -10,6 +10,8 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Being Swift User!")
           
+            Circle()
+                .frame(width: 200, height: 200)
         }
         .padding()
     }
