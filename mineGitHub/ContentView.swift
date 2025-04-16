@@ -9,6 +9,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Being Swift User!")
+            Button("Click me"){
+                
+            }
         }
         .padding()
     }
@@ -17,3 +20,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
